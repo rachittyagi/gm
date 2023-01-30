@@ -9,9 +9,7 @@ $(document).ready(function(){
     })
     
     $(".btn-enquiry").click(function(){
-        $("body,html").animate({
-            scrollTop:$("#" + $(this).data('value')).offset().top
-        },1000)
+        alert('Thank you for your enquiry. We will get back to you soon.')
      
     })
    
